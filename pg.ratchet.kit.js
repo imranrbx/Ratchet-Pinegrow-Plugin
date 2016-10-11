@@ -81,10 +81,12 @@ $(function() {
                                       <a class="control-item active" href="#item1mobile">Thing one</a>\
                                       <a class="control-item" href="#item2mobile">Thing two</a>\
                                       <a class="control-item" href="#item3mobile">Thing three</a>\
-                                      </div><div class="card"><span id="item1mobile" class="control-content active">Item 1</span>\
-                                      <span id="item2mobile" class="control-content">Item 2</span>\
-                                      <span id="item3mobile" class="control-content">Item 3</span>\
-                                    </div>', null, section);
+                                      </div>\
+                                      <div class="card">\
+                                        <span id="item1mobile" class="control-content active">Item 1</span>\
+                                        <span id="item2mobile" class="control-content">Item 2</span>\
+                                        <span id="item3mobile" class="control-content">Item 3</span>\
+                                      </div>', null, section);
 
         var section = pb.addSection('Footer Section');
             //Tab bar
