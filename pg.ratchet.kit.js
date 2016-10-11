@@ -72,17 +72,12 @@ $(function() {
                                                         Right\
                                                       </button>\
                                                       <div class="segmented-control">\
-                                                        <a class="control-item active">One</a>\
-                                                        <a class="control-item">Two</a>\
-                                                        <a class="control-item">Three</a>\
+                                                        <a href="#item1mobile" class="control-item active">One</a>\
+                                                        <a href="#item2mobile" class="control-item">Two</a>\
+                                                        <a href="#item1mobile" class="control-item">Three</a>\
                                                       </div>\
                                                     </header>', null, section);
-      pb.add('Segmented control', '<div class="segmented-control">\
-                                      <a class="control-item active" href="#item1mobile">Thing one</a>\
-                                      <a class="control-item" href="#item2mobile">Thing two</a>\
-                                      <a class="control-item" href="#item3mobile">Thing three</a>\
-                                      </div>\
-                                      <div class="card">\
+      pb.add('Segmented control', '<div class="card">\
                                         <span id="item1mobile" class="control-content active">Item 1</span>\
                                         <span id="item2mobile" class="control-content">Item 2</span>\
                                         <span id="item3mobile" class="control-content">Item 3</span>\
