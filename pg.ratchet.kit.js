@@ -82,7 +82,7 @@ $(function() {
                                         <span id="item2mobile" class="control-content">Item 2</span>\
                                         <span id="item3mobile" class="control-content">Item 3</span>\
                                       </div>', null, section);
-
+   
         var section = pb.addSection('Footer Section');
             //Tab bar
         pb.add('Tab bar', '<nav class="bar bar-tab">\
@@ -274,6 +274,7 @@ $(function() {
          pb.add('Primary Outline', '<button class="btn btn-primary btn-outlined">Button</button>', null, section);
           pb.add('Postive Outline', '<button class="btn btn-positive btn-outlined">Button</button>', null, section);
           pb.add('Negative Outline', '<button class="btn btn-negative btn-outlined">Button</button>', null, section);
+              pb.add('Popup Modal', '<a href="#myModalexample" class="btn">Open modal</a>', null, section);
   var section = pb.addSection('Buttons with Icons');
     pb.add('Default', '<button class="btn">\
                                   <span class="icon icon-search"></span>\
@@ -319,7 +320,95 @@ $(function() {
                                   </button>', null, section);
 
 //Forms section
-
+ var section = pb.addSection('Forms Section');
+     pb.add('Default', '<form>\
+                      <input type="text" placeholder="Full name">\
+                      <input type="search" placeholder="Search">\
+                      <textarea rows="5"></textarea>\
+                      <button class="btn btn-positive btn-block">Choose existing</button>\
+                    </form>', null, section);
+      pb.add('Input Group', '<form class="input-group">\
+                          <input type="text" placeholder="Full name">\
+                          <input type="email" placeholder="Email">\
+                          <input type="text" placeholder="Username">\
+                        </form>', null, section);
+      pb.add('Input Group and Labels', '<form class="input-group">\
+                                          <div class="input-row">\
+                                            <label>Full name</label>\
+                                            <input type="text" placeholder="Mister Ratchet">\
+                                          </div>\
+                                          <div class="input-row">\
+                                            <label>Email</label>\
+                                            <input type="email" placeholder="ratchetframework@gmail.com">\
+                                          </div>\
+                                          <div class="input-row">\
+                                            <label>Username</label>\
+                                            <input type="text" placeholder="goRatchet">\
+                                          </div>\
+                                        </form>', null, section);
+//Toggles section
+ var section = pb.addSection('Toggles Section');
+ pb.add('Default', '<div class="toggle">\
+                          <div class="toggle-handle"></div>\
+                        </div>', null, section);
+ pb.add('Active', '<div class="toggle active">\
+                          <div class="toggle-handle"></div>\
+                        </div>', null, section);
+//Popover section
+ var section = pb.addSection('Popover Section');
+ pb.add('Popover Header', '<header class="bar bar-nav">\
+                            <a href="#myPopover">\
+                              <h1 class="title">\
+                                Tap title\
+                                <span class="icon icon-caret"></span>\
+                              </h1>\
+                            </a>\
+                          </header>', null, section);
+ pb.add('Popover Menu', '<div id="myPopover" class="popover">\
+                            <header class="bar bar-nav">\
+                              <h1 class="title">Popover title</h1>\
+                            </header>\
+                            <ul class="table-view">\
+                              <li class="table-view-cell">Item1</li>\
+                              <li class="table-view-cell">Item2</li>\
+                              <li class="table-view-cell">Item3</li>\
+                              <li class="table-view-cell">Item4</li>\
+                              <li class="table-view-cell">Item5</li>\
+                              <li class="table-view-cell">Item6</li>\
+                              <li class="table-view-cell">Item7</li>\
+                              <li class="table-view-cell">Item8</li>\
+                            </ul>\
+                          </div>', null, section);
+ pb.add('Modal Header', '<div id="myModalexample" class="modal">\
+                            <header class="bar bar-nav">\
+                              <a class="icon icon-close pull-right" href="#myModalexample"></a>\
+                              <h1 class="title">Modal</h1>\
+                            </header>\
+                          </div>', null, section);
+pb.add('Modal Content', '<div class="content">\
+                              <p class="content-padded">The contents of my modal go here. Lorem ipsum dolor sit amet, \
+                              consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna \
+                              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>\
+                            </div>', null, section);
+//Popover section
+ var section = pb.addSection('Slider Section');
+  pb.add('Slider', '<div class="slider" id="mySlider">\
+                      <div class="slide-group">\
+                        <div class="slide">\
+                          <img src="http://placehold.it/640x300">\
+                          <span class="slide-text">\
+                            <span class="icon icon-left-nav"></span>\
+                            Slide me\
+                          </span>\
+                        </div>\
+                        <div class="slide">\
+                          <img src="http://placehold.it/640x300">\
+                        </div>\
+                        <div class="slide">\
+                          <img src="http://placehold.it/640x300">\
+                        </div>\
+                      </div>\
+                    </div>', null, section);
      pinegrow.addFramework(f, 1);
 
      // pb.takePhotos('x_mk_pro_html_v1.0/photo-stage.html');
