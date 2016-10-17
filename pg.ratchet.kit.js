@@ -126,7 +126,7 @@ $(function() {
                                                   <button class="btn btn-block">Block level button</button>\
                                                 </div>', null, section);
       var section = pb.addSection('Content Section');
-      pb.add('Standard bars below topbar', '<div class="content-padded">\
+      pb.add('Standard bars below topbar', '<div class="content">\
                                               <h1>h1. Heading</h1>\
                                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\
                                               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\
